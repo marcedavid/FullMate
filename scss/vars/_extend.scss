@@ -1,0 +1,12 @@
+@import "./vars/_color.scss";
+
+%navfooStyle{
+    color: #fff;
+    padding: 1em;
+    font-size: 18px;
+    background-color:$secundario ;    
+}
+
+%card-img-top{
+    height: 300px;
+}

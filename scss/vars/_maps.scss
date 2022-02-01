@@ -1,0 +1,11 @@
+//MAPS + EACH (bucle)
+$fontStyle: (
+    styleH1: #e8e8e4,
+    styleP: #d8e2dc,
+);
+@each $condition1, $condition2 in $fontStyle {
+    .#{$condition1}{
+        color: $condition2;
+        text-align: center;
+    }
+}
