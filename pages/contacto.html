@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -20,109 +20,115 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/logocrop3.png" alt="logo de la PyME"> <span>Full
-                    Mates</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/about.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/como.html">Como Llegar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/logocrop3.png" alt="logo de la PyME"> <span>Full
+                        Mates</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/about.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/como.html">Como Llegar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>    
     <main class="container">
-        <div class="text-center p-5">
-            <h1>Contactanos</h1>
+        <section>
+            <div class="text-center p-5">
+                <h1>Contactanos</h1>
         </div>
-        <div class="container row d-flex justify-content-center">
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <form action="#" method="GET" enctype="text/plain">
-                    <!-- Text -->
-                    <p class="formText">Nombre:</p>
-                    <input type="text" placeholder="Ricardo Lopez" name="user_name" required>
-                    <!-- Email -->
-                    <p class="formText">Mail:</p>
-                    <input type="email" placeholder="ricardolopez@gmail.com" name="user_email" required>
-                    <!-- Tel -->
-                    <p class="formText">Telefono</p>
-                    <input type="tel" placeholder="1157782248" name="user_tel" required>
-                    <!-- Radio -->
-                    <div>
-                    <p class="formText">Estado civil</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-                    <p class="formText">Soltero</p>
-                    <input type="radio" name="estado_civil" value="soltero">
-                    <p class="formText">Casado</p>
-                    <input type="radio" name="estado_civil" value="casado">
+        </section>
+        <section>
+            <div class="container row d-flex justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <form action="#" method="GET" enctype="text/plain">
+                        <!-- Text -->
+                        <p class="formText">Nombre:</p>
+                        <input type="text" placeholder="Ricardo Lopez" name="user_name" required>
+                        <!-- Email -->
+                        <p class="formText">Mail:</p>
+                        <input type="email" placeholder="ricardolopez@gmail.com" name="user_email" required>
+                        <!-- Tel -->
+                        <p class="formText">Telefono</p>
+                        <input type="tel" placeholder="1157782248" name="user_tel" required>
+                        <!-- Radio -->
+                        <div>
+                        <p class="formText">Estado civil</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                        <p class="formText">Soltero</p>
+                        <input type="radio" name="estado_civil" value="soltero">
+                        <p class="formText">Casado</p>
+                        <input type="radio" name="estado_civil" value="casado">
+                        </div>
+                        <!-- Text Area -->
+                        <p>En que podemos ayudarte?</p>
+                        <textarea name="consulta" id="" cols="30" rows="10"
+                            placeholder="Ingrese aqui su duda o consulta y en breves nos comunicaremos."></textarea><br>
+                        <!-- Checkbox -->
+                        <div class="divCheck">
+                        <p>Deseo recibir newsletter: </p>
+                        <input class="checkB" type="checkbox" name="Y" value="si"><br>
+                        </div>
+                        <!-- Select -->
+                        <div class="selecStyle">
+                        <P>Seleccione el Pais de residencia</P>
+                        <select class="selecButton" name="Nacionalidad" id="">
+                            <option value="ARG">Argentina</option>
+                            <option value="BR">Brasil</option>
+                            <option value="BOL">Bolivia</option>
+                            <option value="CL">Chile</option>
+                            <option value="PAR">Paraguay</option>
+                            <option value="UR">Uruguay</option>
+                        </select><br>
+                        </div>
+                        <!-- Botones -->
+                        <input type="submit" for="user_name" value="ENVIAR">
+                        <input type="reset" value="RESET">
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="llamanos">
+                        <span><p>Llamanos</p></span>
                     </div>
-                    <!-- Text Area -->
-                    <p>En que podemos ayudarte?</p>
-                    <textarea name="consulta" id="" cols="30" rows="10"
-                        placeholder="Ingrese aqui su duda o consulta y en breves nos comunicaremos."></textarea><br>
-                    <!-- Checkbox -->
-                    <div class="divCheck">
-                    <p>Deseo recibir newsletter: </p>
-                    <input class="checkB" type="checkbox" name="Y" value="si"><br>
+                    <div class="iconPhone">
+                        <img src="../assets/phoneresize.png" alt="tel icon"> 
+                        <p>011 4441-4444</p>
                     </div>
-                    <!-- Select -->
-                    <div class="selecStyle">
-                    <P>Seleccione el Pais de residencia</P>
-                    <select class="selecButton" name="Nacionalidad" id="">
-                        <option value="ARG">Argentina</option>
-                        <option value="BR">Brasil</option>
-                        <option value="BOL">Bolivia</option>
-                        <option value="CL">Chile</option>
-                        <option value="PAR">Paraguay</option>
-                        <option value="UR">Uruguay</option>
-                    </select><br>
+                    <div class="acercate">
+                        <p>Acercate</p>
                     </div>
-                    <!-- Botones -->
-                    <input type="submit" for="user_name" value="ENVIAR">
-                    <input type="reset" value="RESET">
-                </form>
+                    <div class="iconMaps"> 
+                        <img src="../assets/mapsresize.png" alt="">
+                        <p>Av Rivadavia 4949</p>
+                    </div>
+                    <div class="escribinos">
+                        <p>Escribinos</p>
+                    </div>
+                    <div class="iconMail">
+                        <img src="../assets/mailresize.png" alt="">
+                        <p>mates@mates.com</p>
+                    </div>
+                </div>        
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <div class="llamanos">
-                    <span><p>Llamanos</p></span>
-                </div>
-                <div class="iconPhone">
-                    <img src="../assets/phoneresize.png" alt="tel icon"> 
-                    <p>011 4441-4444</p>
-                </div>
-                <div class="acercate">
-                    <p>Acercate</p>
-                </div>
-                <div class="iconMaps"> 
-                    <img src="../assets/mapsresize.png" alt="">
-                    <p>Av Rivadavia 4949</p>
-                </div>
-                <div class="escribinos">
-                    <p>Escribinos</p>
-                </div>
-                <div class="iconMail">
-                    <img src="../assets/mailresize.png" alt="">
-                    <p>mates@mates.com</p>
-                </div>
-            </div>        
-        </div>
+        </section>
     </main>
     <!-- Footer -->
     <footer class="text-center text-white">
