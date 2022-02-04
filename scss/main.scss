@@ -3,6 +3,8 @@
 @import "../scss/vars/_extend.scss";
 @import "../scss/vars/_mixin.scss";
 @import "../scss/vars/_maps.scss";
+@import "./about.scss";
+@import "./productos.scss";
 
 *{
     margin: 0;
@@ -11,18 +13,26 @@
 }
 
 body{
-    background-color: $primario;
+    background-image: url("../assets/background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     nav{
-        @extend%navfooStyle;
+        @extend%navStyle;
+
     }
-    .cartaIndex{
-        @include card($primario, $secundario);
+    .prodContain{
+        padding: 3rem;
         .ciBody{
-            @include card-body($secundario);
+            .tituloCard{
+                @extend%tituloCard;
+            }
+            .textoCard{
+                @extend%textoCard;
+            }
         }
     }
     footer{
-        @extend%navfooStyle;
+        @extend%fooStyle;
     }
 }
 a{
@@ -31,6 +41,20 @@ a{
 
 
 @media (max-width:768px){
+    .navbar{
+        text-align: center;
+    }
+    body{
+        background-image: url("../assets/backgroundMob.svg");
+        background-position: center;
+        background-repeat: repeat;
+    }
+    .carousel{
+        img{
+            height: 350px;
+        }
+
+    }
     .prodContain{
         font-size: 12px;
         text-decoration: none;
@@ -40,7 +64,7 @@ a{
         background-color: black;
     }
     .prounded{
-        color: #fff;
+        border-bottom: 2px dashed #80ed99;
     }
 }
 

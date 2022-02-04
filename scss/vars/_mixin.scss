@@ -2,12 +2,11 @@
 
 @mixin card($secundario, $primario) {
     margin: 5% 0%;
-    background-color: $secundario;
-    color: white;
-    border-color: $primario;    
+    color: #22577a;
+  
 }
 
 @mixin card-body($secundario) {
     padding: 6% 5%;
-    background-color: $secundario;
+    color: #22577a;
 }

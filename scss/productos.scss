@@ -1,0 +1,41 @@
+@import "../scss/vars/_extend.scss";
+
+main{
+    .titleProdu{
+        font-size: 48px;
+        padding: 3rem;
+        .subrayado{
+            border-bottom: 2px solid #22577a;
+        }
+    }
+    .boxBoton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        .nav-pills{
+            .botonStyle{
+                color: black;
+            }
+            .active{
+                background-color: #22577a;
+                border:2px groove #80ed99;
+                color: aliceblue;
+            }
+        }
+    }
+    .card{
+        border: 1px solid #80ed99;
+        .card-body{
+            .tituloCard{
+                @extend%tituloCard;
+            }
+            .textoCard{
+                @extend%textoCard;
+            }
+            .btnProdu{
+                @extend%btnProdu;
+            }
+        }
+    }    
+}

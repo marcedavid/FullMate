@@ -1,12 +1,40 @@
 @import "./vars/_color.scss";
 
-%navfooStyle{
+%navStyle{
     color: #fff;
-    padding: 1em;
+    font-size: 24px;
+    background-color: #22577a;
+}
+
+%fooStyle{
+    color: #fff;
     font-size: 18px;
-    background-color:$secundario ;    
+    background: rgb(128,237,153);
+    background: linear-gradient(0deg, rgba(128,237,153,1) 0%, rgba(34,87,122,1) 100%); 
 }
 
 %card-img-top{
     height: 300px;
+}
+
+%tituloCard{
+    text-align: center;
+    color: #22577a;
+}
+
+%textoCard{
+    text-align: center;
+    color: #22577a;
+    font-weight: 300;
+}
+%btnProdu{
+    display: flex;
+    justify-content: center;
+    background-color: #80ed99;
+    text-align: center;
+    border: none;
+}
+%btnProdu:hover{
+    background-color: #22577a;
+    color: #80ed99;
 }

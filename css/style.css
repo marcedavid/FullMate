@@ -1,9 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Neonderthaw&display=swap");
-body nav, body footer {
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Neonderthaw&family=Oswald:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Neonderthaw&family=Oswald:wght@200;300;400&display=swap");
+body nav {
   color: #fff;
-  padding: 1em;
+  font-size: 24px;
+  background-color: #22577a; }
+
+body footer {
+  color: #fff;
   font-size: 18px;
-  background-color: #001524; }
+  background: #80ed99;
+  background: linear-gradient(0deg, #80ed99 0%, #22577a 100%); }
+
+main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
+  text-align: center;
+  color: #22577a; }
+
+main .card .card-body .textoCard, body .prodContain .ciBody .textoCard {
+  text-align: center;
+  color: #22577a;
+  font-weight: 300; }
+
+main .card .card-body .btnProdu {
+  display: flex;
+  justify-content: center;
+  background-color: #80ed99;
+  text-align: center;
+  border: none; }
+
+main .card .card-body .btnProdu:hover {
+  background-color: #22577a;
+  color: #80ed99; }
 
 .styleH1 {
   color: #e8e8e4;
@@ -13,26 +40,152 @@ body nav, body footer {
   color: #d8e2dc;
   text-align: center; }
 
+body nav {
+  color: #fff;
+  font-size: 24px;
+  background-color: #22577a; }
+
+body footer {
+  color: #fff;
+  font-size: 18px;
+  background: #80ed99;
+  background: linear-gradient(0deg, #80ed99 0%, #22577a 100%); }
+
+main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
+  text-align: center;
+  color: #22577a; }
+
+main .card .card-body .textoCard, body .prodContain .ciBody .textoCard {
+  text-align: center;
+  color: #22577a;
+  font-weight: 300; }
+
+main .card .card-body .btnProdu {
+  display: flex;
+  justify-content: center;
+  background-color: #80ed99;
+  text-align: center;
+  border: none; }
+
+main .card .card-body .btnProdu:hover {
+  background-color: #22577a;
+  color: #80ed99; }
+
+.styleH1 {
+  color: #e8e8e4;
+  text-align: center; }
+
+.styleP {
+  color: #d8e2dc;
+  text-align: center; }
+
+main .titleAbout h1 {
+  text-align: center;
+  font-size: 48px; }
+  main .titleAbout h1 .subrayado {
+    border-bottom: 2px solid #22577a; }
+
+main .titleAbout p {
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
+  background-color: white; }
+
+main .diseño {
+  text-align: center; }
+  main .diseño .subtitle {
+    font-size: 20px; }
+    main .diseño .subtitle .fas {
+      padding-right: 5px; }
+    main .diseño .subtitle .subrayado {
+      border-bottom: 2px solid #22577a; }
+  main .diseño .textSub {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center; }
+  main .diseño .staffh2 {
+    text-align: center;
+    font-size: 48px;
+    text-decoration: none; }
+    main .diseño .staffh2 .subrayado {
+      border-bottom: 2px solid #22577a; }
+
+body nav {
+  color: #fff;
+  font-size: 24px;
+  background-color: #22577a; }
+
+body footer {
+  color: #fff;
+  font-size: 18px;
+  background: #80ed99;
+  background: linear-gradient(0deg, #80ed99 0%, #22577a 100%); }
+
+main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
+  text-align: center;
+  color: #22577a; }
+
+main .card .card-body .textoCard, body .prodContain .ciBody .textoCard {
+  text-align: center;
+  color: #22577a;
+  font-weight: 300; }
+
+main .card .card-body .btnProdu {
+  display: flex;
+  justify-content: center;
+  background-color: #80ed99;
+  text-align: center;
+  border: none; }
+
+main .card .card-body .btnProdu:hover {
+  background-color: #22577a;
+  color: #80ed99; }
+
+main .titleProdu {
+  font-size: 48px;
+  padding: 3rem; }
+  main .titleProdu .subrayado {
+    border-bottom: 2px solid #22577a; }
+
+main .boxBoton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem; }
+  main .boxBoton .nav-pills .botonStyle {
+    color: black; }
+  main .boxBoton .nav-pills .active {
+    background-color: #22577a;
+    border: 2px groove #80ed99;
+    color: aliceblue; }
+
+main .card {
+  border: 1px solid #80ed99; }
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Oswald", sans-serif; }
 
 body {
-  background-color: #e9ecef; }
-  body .cartaIndex {
-    margin: 5% 0%;
-    background-color: #e9ecef;
-    color: white;
-    border-color: #001524; }
-    body .cartaIndex .ciBody {
-      padding: 6% 5%;
-      background-color: #001524; }
+  background-image: url("../assets/background.svg");
+  background-position: center;
+  background-repeat: no-repeat; }
+  body .prodContain {
+    padding: 3rem; }
 
 a {
   text-decoration: none; }
 
 @media (max-width: 768px) {
+  .navbar {
+    text-align: center; }
+  body {
+    background-image: url("../assets/backgroundMob.svg");
+    background-position: center;
+    background-repeat: repeat; }
+  .carousel img {
+    height: 350px; }
   .prodContain {
     font-size: 12px;
     text-decoration: none; }
@@ -40,7 +193,7 @@ a {
     border-radius: 100%;
     background-color: black; }
   .prounded {
-    color: #fff; } }
+    border-bottom: 2px dashed #80ed99; } }
 
 @media (min-width: 1024px) {
   .borde {
