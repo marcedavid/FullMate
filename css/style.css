@@ -103,12 +103,13 @@ main .diseño {
     font-size: 16px;
     font-weight: 300;
     text-align: center; }
-  main .diseño .staffh2 {
-    text-align: center;
-    font-size: 48px;
-    text-decoration: none; }
-    main .diseño .staffh2 .subrayado {
-      border-bottom: 2px solid #22577a; }
+
+main .staffH2 {
+  text-align: center;
+  font-size: 48px;
+  text-decoration: none; }
+  main .staffH2 .subrayado {
+    border-bottom: 2px solid #22577a; }
 
 body nav {
   color: #fff;
