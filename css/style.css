@@ -14,12 +14,13 @@ body footer {
 
 main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
   text-align: center;
-  color: #22577a; }
+  color: #22577a;
+  margin: 0; }
 
 main .card .card-body .textoCard, body .prodContain .ciBody .textoCard {
   text-align: center;
   color: #22577a;
-  font-weight: 300; }
+  font-weight: 200; }
 
 main .card .card-body .btnProdu {
   display: flex;
@@ -53,12 +54,13 @@ body footer {
 
 main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
   text-align: center;
-  color: #22577a; }
+  color: #22577a;
+  margin: 0; }
 
 main .card .card-body .textoCard, body .prodContain .ciBody .textoCard {
   text-align: center;
   color: #22577a;
-  font-weight: 300; }
+  font-weight: 200; }
 
 main .card .card-body .btnProdu {
   display: flex;
@@ -124,12 +126,13 @@ body footer {
 
 main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
   text-align: center;
-  color: #22577a; }
+  color: #22577a;
+  margin: 0; }
 
 main .card .card-body .textoCard, body .prodContain .ciBody .textoCard {
   text-align: center;
   color: #22577a;
-  font-weight: 300; }
+  font-weight: 200; }
 
 main .card .card-body .btnProdu {
   display: flex;
@@ -181,10 +184,6 @@ a {
 @media (max-width: 768px) {
   .navbar {
     text-align: center; }
-  body {
-    background-image: url("../assets/backgroundMob.svg");
-    background-position: center;
-    background-repeat: repeat; }
   .carousel img {
     height: 350px; }
   .prodContain {

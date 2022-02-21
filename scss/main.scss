@@ -16,6 +16,7 @@ body{
     background-image: url("../assets/background.svg");
     background-position: center;
     background-repeat: no-repeat;
+
     nav{
         @extend%navStyle;
 
@@ -43,11 +44,6 @@ a{
 @media (max-width:768px){
     .navbar{
         text-align: center;
-    }
-    body{
-        background-image: url("../assets/backgroundMob.svg");
-        background-position: center;
-        background-repeat: repeat;
     }
     .carousel{
         img{
