@@ -12,6 +12,64 @@ body footer {
   background: #80ed99;
   background: linear-gradient(0deg, #80ed99 0%, #22577a 100%); }
 
+.submenu {  
+    position: relative;
+    list-style-type: none;
+
+}
+
+.submenu #carrito{
+    display: none;
+
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    border: 2px solid #264653;
+    border-radius: 2%;
+    background-color: #22577a;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+th{
+  padding:10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+td{
+  padding: 5px;
+  font-size: 20px;
+  border-bottom: 2px solid #80ed99;
+  text-align: center;
+  justify-content: center;
+  font-weight: 200; 
+}
+
+td img{
+  width: 50px;
+}
+.borrar-curso{
+  color: #80ed99;
+}
+.borrar-curso:hover{
+  color: #4a8f5a;
+}
+.btnVaciar{
+  background-color: #80ed99;
+  display: block;
+
+}
+.btnVaciar:hover{
+  background-color: #80ed99;
+}
+
 main .card .card-body .tituloCard, body .prodContain .ciBody .tituloCard {
   text-align: center;
   color: #22577a;
@@ -144,6 +202,24 @@ main .card .card-body .btnProdu {
 main .card .card-body .btnProdu:hover {
   background-color: #22577a;
   color: #80ed99; }
+
+#img-carrito{
+  background-color: #80ed99;
+  border-radius: 50%;
+  display: block;
+  margin-top: 15px;
+} 
+.submenu .btnProdu{
+  background-color: #80ed99;
+  color: #22577a;
+  display: block;
+  justify-content: center;
+}
+
+.submenu .btnProdu:hover{
+  background-color: #22577a;
+  color: #80ed99;
+}
 
 main .titleProdu {
   font-size: 48px;
